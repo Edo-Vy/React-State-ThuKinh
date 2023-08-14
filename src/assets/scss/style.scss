@@ -1,0 +1,71 @@
+.glass {
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-position: right bottom;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+ 
+  .header__main {
+    .title {
+      font-size: 25px;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .container {
+      .glass__wrap {
+        margin-top: 20px;
+        .card {
+          position: relative;
+          text-align: center;
+          padding: 5px 40px;
+          border: none;
+          background-color: transparent;
+          .card-item {
+            img {
+            }
+            .card__glass {
+              position: absolute;
+              top: 65px;
+              left: 182px;
+              img {
+                padding: 20px;
+              }
+            }
+            .card-body {
+              position: absolute;
+              bottom: 5px;
+              left: 141px;
+              /* padding: 0 25px; */
+              background-color: rgba(247, 126, 12, 0.4);
+              width: 50%;
+              h3 {
+                text-align: start;
+                font-size: 20px;
+              }
+              p {
+                font-size: 16px;
+                text-align: start;
+                margin-bottom: 0;
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+      .card__data {
+        background-color: #fff;
+        padding: 20px;
+        margin: 30px 40px;
+        text-align: center;
+        .card__wrap {
+          .card__img {
+            border: 1px solid grey;
+            padding: 5px;
+            margin: 20px 30px;
+            img {
+            }
+          }
+        }
+      }
+    }
+  }
+}
